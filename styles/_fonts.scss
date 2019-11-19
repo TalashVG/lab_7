@@ -1,0 +1,70 @@
+header {
+	a {
+		font-family: $fontFamily;
+		font-size: 17px;
+		color: $fontColorOne;
+	}
+}
+
+.root__menu__top {
+  	font-size: 12px;
+  	font-family: $fontFamily;
+}
+
+.root__menu__top li {
+    a {
+		font-family: $fontFamily;
+		color: $fontColorTwo;
+	}
+}
+
+.root__menu__top li:hover {
+	color: $hoverColorFont;
+	a {
+		color: $hoverColorFont;
+	}
+}
+
+.item__welcome {
+	font-size: 60px;
+	color: $fontColorTwo;
+}
+
+.item__name {
+	font-size: 28pt;
+	color: $fontColorOne;
+}
+
+h2 {
+	font-size: 45px;
+	color: $fontColorOne;
+}
+
+.team__description {
+	font-family: $fontFamily;
+	font-size: 20px;
+}
+
+.team__items-block {
+	.team__item .item__title {
+		font-size: 25px;
+		font-family: $fontFamily;
+		font-weight: normal;
+	}
+	.team__item .item__desc {
+		font-size: 17px;
+		font-family: $fontFamily;
+	}
+}
+
+.root__counter {
+	.counter__item .item__digit {
+		font-size: 75px;
+		color: $fontColorOne;
+	}
+	.counter__item .item__prop {
+		font-size: 17px;
+		font-family: $fontFamily;
+		color: $fontColorTwo;
+	}
+}
