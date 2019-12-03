@@ -111,7 +111,9 @@ img {
 .container__image {
   width: 100%;
   height: 800px;
-  background-color: grey; }
+  background-image: url("../img/white.jpg");
+  background-size: cover;
+  background-position: center; }
 
 .registration__fields {
   width: 100%;
@@ -120,6 +122,20 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center; }
+
+.registration__fields p {
+  width: 400px;
+  margin-bottom: 40px;
+  text-align: center; }
+.registration__fields h1 {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+.registration__fields button {
+  margin-left: 760px;
+  height: 40px;
+  width: 140px;
+  background-color: #c13009;
+  border: 2px solid #a2241a; }
 
 .input__wrapper {
   width: 1000px;
@@ -156,42 +172,63 @@ input:focus {
 
 .container__about {
   width: 100%;
-  height: 600px;
+  height: 800px;
+  background-image: url("../img/white.jpg");
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: space-around;
   align-items: center; }
 
 .about__img {
-  width: 600px;
+  width: 750px;
   height: 450px;
   background-color: grey; }
 
 .about__info {
-  width: 590px;
+  width: 650px;
   height: 350px;
+  background-color: #e6e6e6;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around; }
+  align-items: center; }
 
 .about__info img {
   width: 70px;
-  height: 70px; }
+  height: 70px;
+  margin-left: 30px; }
+.about__info h1 {
+  margin-top: 40px;
+  margin-bottom: 20px; }
 
 .wrapper__info {
+  margin-top: 40px;
   width: 90%;
   display: flex;
   justify-content: space-around; }
-
-.wrapper__info div {
-  width: 100px;
-  height: 100px;
-  text-align: center; }
+  .wrapper__info div {
+    width: 100px;
+    height: 100px;
+    text-align: center; }
+  .wrapper__info button {
+    margin-top: 10px;
+    height: 40px;
+    width: 130px;
+    background: #e6e6e6;
+    border: 3px solid black; }
 
 .about__info p {
   width: 80%;
   text-align: center; }
+
+hr {
+  margin-top: -60px;
+  margin-left: 63px;
+  height: 100px;
+  width: 0px;
+  border: 2px solid black;
+  margin-bottom: -20px; }
 
 .container__galerry {
   width: 100%;
@@ -200,11 +237,31 @@ input:focus {
   flex-direction: column;
   align-items: center;
   justify-content: space-between; }
+  .container__galerry h1 {
+    margin-top: 100px; }
+  .container__galerry p {
+    text-align: center;
+    width: 1200px;
+    height: 50px; }
 
 .gallery__slider {
+  margin-top: 50px;
   width: 100%;
   height: 400px;
   border: 1px solid black; }
+
+.button__click {
+  margin-bottom: 20px;
+  border: 3px solid #a95e39;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  color: #a95e39;
+  font-size: 30px;
+  background-color: white; }
+
+#slick-next {
+  margin-left: 1350px; }
 
 .top__footer {
   width: 100%;
@@ -213,18 +270,42 @@ input:focus {
   display: flex;
   justify-content: space-around; }
   .top__footer div {
+    margin-top: 10px;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 150px;
     height: 100px; }
+  .top__footer img {
+    width: 30px;
+    height: 30px; }
+  .top__footer .location {
+    display: flex;
+    flex-direction: row; }
+  .top__footer .telephone {
+    display: flex;
+    flex-direction: row; }
 
 .bottom__footer {
   width: 100%;
   height: 50px;
-  background-color: black; }
+  background-color: black;
+  display: flex;
+  justify-content: space-between; }
   .bottom__footer p {
     color: #ffffff; }
+
+.copyright__social {
+  width: 250px;
+  display: flex;
+  justify-content: space-between; }
+  .copyright__social img {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    height: 50px;
+    width: 50px; }
 
 header a {
   font-family: "Myriad Pro", sans-serif;
@@ -254,7 +335,8 @@ header a {
 
 h2 {
   font-size: 45px;
-  color: #a95e39; }
+  color: #a95e39;
+  font-weight: normal; }
 
 .team__description {
   font-family: "Myriad Pro", sans-serif;
@@ -275,6 +357,29 @@ h2 {
   font-size: 17px;
   font-family: "Myriad Pro", sans-serif;
   color: white; }
+
+.registration__fields p {
+  color: white;
+  font-family: "Myriad Pro", sans-serif; }
+.registration__fields h1 {
+  font-weight: normal;
+  color: white; }
+.registration__fields button {
+  color: white;
+  font-family: "Myriad Pro", sans-serif; }
+
+.about__info {
+  font-family: "Myriad Pro", sans-serif; }
+  .about__info h1 {
+    font-family: none;
+    font-weight: normal; }
+
+.container__galerry h1 {
+  font-size: 45px;
+  color: #a95e39;
+  font-weight: normal; }
+.container__galerry p {
+  font-size: 30px; }
 
 @media (max-width: 1024px) {
   img {

@@ -38,6 +38,7 @@ header {
 h2 {
 	font-size: 45px;
 	color: $fontColorOne;
+	font-weight: normal;
 }
 
 .team__description {
@@ -66,5 +67,44 @@ h2 {
 		font-size: 17px;
 		font-family: $fontFamily;
 		color: $fontColorTwo;
+	}
+}
+
+.registration__fields{
+	p{
+		color: $fontColorTwo;
+		font-family: $fontFamily;
+	}
+
+	h1{
+		font-weight: normal;
+		color: $fontColorTwo;
+	}
+
+	button{
+    	color: $fontColorTwo;
+    	font-family: $fontFamily;
+	}
+
+}
+
+.about__info{
+	font-family: $fontFamily;
+
+	h1{
+		font-family: none;
+		font-weight: normal;
+	}
+}
+
+.container__galerry{
+	h1{
+		font-size: 45px;
+		color: $fontColorOne;
+		font-weight: normal;
+	}
+
+	p{
+		font-size: 30px;
 	}
 }
